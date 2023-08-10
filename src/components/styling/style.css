@@ -1,0 +1,81 @@
+.homepage{
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    background-color: #3770eb;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.3rem;
+    display: flex;
+    align-items: center;justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.box-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+.user-start-page{
+    padding: 1rem 2rem;
+}
+.box{
+    border: 2px solid #beb5b5;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 3rem;
+}
+.AdminPage{
+    padding: 3rem 2rem 2rem 2rem;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top img{
+    width: 70px;
+    height: 70px;
+}
+.bottom h3{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #3770eb;
+}
+form{
+    padding: 2rem 1.2rem;
+}
+.input-con{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    margin-bottom: .9rem;
+}
+ label{
+    font-weight: 500;
+}
+.input-con input{
+    border: 1.2px solid #9f9e9e;
+    padding: .9rem 1rem;
+    border-radius: 20px;
+    outline: none;
+}
+input:focus{
+    border: 1.2px solid #9f9e9e;
+}
+input[type='submit']{
+    margin-top: 1.2rem;
+    background-color: #3770eb;
+    color: #fff;
+    padding: 1rem 0;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 25px;
+}
