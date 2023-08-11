@@ -4,6 +4,8 @@ import FrontPage from './pages/FrontPage';
 import AdminSignUp from './pages/AdminSignUp';
 import AdminLogin from './pages/AdminLogin';
 import BioDataForm from './pages/BioDataForm';
+import Scan from './pages/Scan';
+import Scanned from './pages/Scanned';
 import './App.css'
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
           <Route  path="/admin-signup" element={<AdminSignUp/>}/>
           <Route  path="/bio-form" element={<BioDataForm/>}/>
           <Route  path="/admin-login" element={<AdminLogin/>}/>
+          <Route  path="/scan-a-face" element={<Scan/>}/>
+          <Route  path="/scanned" element={<Scanned/>}/>
           
           
           
